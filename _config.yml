@@ -1,14 +1,13 @@
 # Site settings
 title:          Tale
 description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+url:            "https://intelyshoen.github.io"
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         intelyshoen
+  url:          https://intelyshoen.github.io
+  email:        intelyhsoen@gmail.com
 
 # Build settings
 markdown:       kramdown
@@ -21,7 +20,9 @@ sass:
 # Gems
 plugins:
   - jekyll-paginate
+  - jekyll-remote-theme
 
 # Permalinks
 permalink:      /:year-:month-:day/:title
 paginate:       5
+
