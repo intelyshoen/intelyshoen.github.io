@@ -5,17 +5,41 @@
         <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
         <link>http://localhost:4000/</link>
         <description></description>
-        <pubDate>Thu, 12 Apr 2018 14:19:06 +0900</pubDate>
+        <pubDate>Thu, 12 Apr 2018 14:21:11 +0900</pubDate>
         
         <item>
-            <title>Blogging with title</title>
-            <link>/2013/11/18/blogging-with-title.html</link>
-            <guid isPermaLink="true">/2013/11/18/blogging-with-title.html</guid>
-            <description>&lt;h1 id=&quot;i-am-a-big-title&quot;&gt;I am a BIG title&lt;/h1&gt;
+            <title>테스트용 게시물</title>
+            <link>/2018/04/11/%ED%85%8C%EC%8A%A4%ED%81%AC%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%82%AC%EC%9A%A9%EB%B2%95.html</link>
+            <guid isPermaLink="true">/2018/04/11/%ED%85%8C%EC%8A%A4%ED%81%AC%EA%B2%8C%EC%8B%9C%EB%AC%BC-%EB%A7%88%ED%81%AC%EB%8B%A4%EC%9A%B4%EC%82%AC%EC%9A%A9%EB%B2%95.html</guid>
+            <description>&lt;h1 id=&quot;자료창고&quot;&gt;자료창고&lt;/h1&gt;
 
-&lt;p&gt;This is a very tiny tiny post with less than 250 letters.&lt;/p&gt;
+&lt;p&gt;페이스북으로 쌓아놨던 자료들을활용하기위해서 시작함!&lt;/p&gt;
+
+&lt;h1 id=&quot;1-마크다운문법&quot;&gt;1. 마크다운문법&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;hr 줄긋기&lt;/li&gt;
+    &lt;li&gt;강조 **&lt;/li&gt;
+    &lt;li&gt;블록채우가는 &amp;gt; 로 시작&lt;/li&gt;
+    &lt;li&gt;hr 한줄넣기&lt;/li&gt;
+    &lt;li&gt;헤딩은 #개수로 설정 (띄어쓰기 주의)&lt;/li&gt;
+    &lt;li&gt;pre 태그사용가능하지만 주의할것&lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
 </description>
-            <pubDate>Mon, 18 Nov 2013 00:00:00 +0900</pubDate>
+            <pubDate>Wed, 11 Apr 2018 00:00:00 +0900</pubDate>
+        </item>
+        
+        <item>
+            <title>리액트 공부기록</title>
+            <link>/2018/04/11/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B3%B5%EB%B6%80%EA%B8%B0%EB%A1%9D.html</link>
+            <guid isPermaLink="true">/2018/04/11/%EB%A6%AC%EC%95%A1%ED%8A%B8-%EA%B3%B5%EB%B6%80%EA%B8%B0%EB%A1%9D.html</guid>
+            <description>&lt;blockquote&gt;
+  &lt;p&gt;React 를 공부하던도중 Vue 를 통해서 홈페이지를 하나 제작하게 되었다. 역시 실무를 계속 해봐야, 개념이 조금더 이해가 빨리가는거같다.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+            <pubDate>Wed, 11 Apr 2018 00:00:00 +0900</pubDate>
         </item>
         
     </channel>
