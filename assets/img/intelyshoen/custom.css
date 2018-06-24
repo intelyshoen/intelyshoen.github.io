@@ -399,6 +399,7 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 #board-info h1 > a {
+  font-size: 0;
   font-weight: 900;
   color: #18695c !important;
   /* text-shadow: 3px 0px 0px 0px #004d40; */
@@ -407,11 +408,13 @@ span.a-badge i.fa.fa-info-circle {
 
 #board-info h1 > a:first-child:before {
   content: ' ';
+  font-size: 15px !important;
   font-family: FontAwesome;
 }
 
 #board-info h1 > a:first-child:after {
-  content: ' 첫 페이지로';
+  font-size: 15px !important;
+  content: ' 서게더 첫 페이지로';
 }
 
 #board-info > img {
