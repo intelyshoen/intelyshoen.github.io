@@ -8,10 +8,10 @@ body {
   color: #4a5044;
 }
 
-#board-info h1>a.badge.badge-live::after {
+/* #board-info h1>a.badge.badge-live::after {
   content: '생방송 바로가기';
   font-size: 13px !important;
-}
+} */
 
 #article-list>.article-list-row>.item>.list-title>.list-writer>span {
   width: 120px !important;

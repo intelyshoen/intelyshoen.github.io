@@ -611,3 +611,8 @@ header {
   padding: 0px;
   padding-left: 20px;
 }
+
+#board-info h1>a.badge.badge-live::after {
+  content: '생방송 바로가기';
+  font-size: 13px !important;
+}
