@@ -142,7 +142,9 @@ header>#header-search-bar #header-search-input {
   color: white;
 }
 
-.fa .fa-info-circle {
+span.a-badge i.fa.fa-info-circle,
+i.fa.fa-home,
+#lastc {
   color: #009688;
 }
 
