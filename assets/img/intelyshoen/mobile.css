@@ -141,3 +141,12 @@ header>#header-search-bar #header-search-input {
   background-color: #009688;
   color: white;
 }
+
+.fa .fa-info-circle {
+  color: #009688;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-menu a,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu a {
+  color: #009688;
+}
