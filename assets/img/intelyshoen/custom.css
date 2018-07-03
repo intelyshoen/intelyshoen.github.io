@@ -375,6 +375,7 @@ span.a-badge i.fa.fa-info-circle {
   height: unset;
   margin: 0;
   display: flex;
+  height: 100vh;
   padding: 10px;
   /* border: 1px solid #39956e; */
   border-bottom: none;
@@ -568,6 +569,7 @@ header {
 #main #main-content > div.frame {
   background: transparent;
   display: flex;
+  height: 100vh;
   flex-direction: column;
 }
 
