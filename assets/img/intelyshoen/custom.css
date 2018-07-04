@@ -43,7 +43,7 @@ body {
 
 /* 전체 쉐도우 */
 
-#main #main-content > div.frame {
+#main #main-content>div.frame {
   /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); */
 }
 
@@ -53,7 +53,7 @@ header #header-bar {
   margin-bottom: 0;
 }
 
-header #header-bar > .row {
+header #header-bar>.row {
   /* border-top: 2px solid #009688; */
   border-top: none;
   margin-top: 2px;
@@ -82,40 +82,39 @@ header #header-bar.container {
   background: unset !important;
 }
 
-header #header-bar > .row * {
+header #header-bar>.row * {
   /* border: none !important; */
 }
 
-header #header-bar > .row .dropdown-menu a {
+header #header-bar>.row .dropdown-menu a {
   color: black !important;
 }
 
-header #header-bar > .row .dropdown-menu a > * {
+header #header-bar>.row .dropdown-menu a>* {
   color: black !important;
 }
 
-header #header-bar > .row * {
+header #header-bar>.row * {
   color: white !important;
 }
 
 /* 헤더 배너 */
 
-header .row > div:nth-child(1) > a {
+header .row>div:nth-child(1)>a {
   display: block;
   width: 145px;
   height: 62px;
-  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgt.png)
-    no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgt.png) no-repeat;
   background-size: 145px 62px;
 }
 
-header .row > div:nth-child(1) > a > img {
+header .row>div:nth-child(1)>a>img {
   display: none;
 }
 
 /* 검색폼 보더 */
 
-header #right-search-form > input[type='text'] {
+header #right-search-form>input[type='text'] {
   width: 186px !important;
   border: 3px solid #4a5044;
 }
@@ -126,7 +125,7 @@ header #header-bar {
 
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
 
-#main .menu-wrapper > .header {
+#main .menu-wrapper>.header {
   background: #00695c;
 }
 
@@ -142,8 +141,7 @@ header #header-bar {
 .fa-navicon:before,
 .fa-reorder:before,
 .fa-bars:before {
-  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/ico.png)
-    no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/ico.png) no-repeat;
   background-size: 15px auto;
   color: transparent;
   /* padding-right: 0; */
@@ -152,9 +150,9 @@ header #header-bar {
   display: inline-block;
 }
 
-header #header-bar > .row,
+header #header-bar>.row,
 #main .menu-wrapper,
-#main #main-content > div.frame {
+#main #main-content>div.frame {
   /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); */
   border-right: none;
   border-bottom: none;
@@ -168,20 +166,19 @@ header {
   padding: 0 !important;
 }
 
-header > .container {
-  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/snrpixelart.png)
-    no-repeat;
+header>.container {
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/snrpixelart.png) no-repeat;
   background-position: 75% -20px;
   background-size: 113px auto;
 }
 
-header > .container > .row {
+header>.container>.row {
   position: relative;
   padding-bottom: 0.5em;
   padding-top: 0.5em;
 }
 
-header :first-child > .row > .col-xs-8 {
+header :first-child>.row>.col-xs-8 {
   position: absolute;
   right: 0;
   bottom: 0.8em;
@@ -189,7 +186,7 @@ header :first-child > .row > .col-xs-8 {
 
 /* 헤더 검색 버튼 */
 
-header #right-search-form > #right-search-btn {
+header #right-search-form>#right-search-btn {
   color: #4a5044;
 }
 
@@ -213,7 +210,7 @@ header #header-bar .fa {
 
 /* 좌측메뉴 숏컷링크 글씨 색상 */
 
-#main .menu-wrapper > a > em {
+#main .menu-wrapper>a>em {
   color: #f3dcba;
 }
 
@@ -235,11 +232,11 @@ header #header-bar .fa {
   order: 3;
 }
 
-#article-list > .article-list-row > .item > .list-title {
+#article-list>.article-list-row>.item>.list-title {
   /* padding: 10px 0; */
 }
 
-#article-list > .article-list-row > .item > .list-title > .list-writer > span {
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
   width: 170px !important;
 }
 
@@ -249,7 +246,7 @@ header #header-bar .fa {
   background: #18695c;
 }
 
-#article-list #article-list-category > a {
+#article-list #article-list-category>a {
   background: #18695c !important;
 }
 
@@ -257,72 +254,59 @@ header #header-bar .fa {
   color: white !important;
 }
 
-#article-list > .article-list-row > .item > .list-header > span {
+#article-list>.article-list-row>.item>.list-header>span {
   background-color: #009688;
 }
 
-#article-list > .article-list-row > .item > .list-title > small.comment-count {
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
   color: #009688;
   letter-spacing: -0.05em !important;
 }
 
-#article-list
-  > .article-list-row
-  > .item
-  > .list-title
-  > .list-writer.logged
-  > span {
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
   color: #009688;
   font-weight: 900;
   text-align: left !important;
   letter-spacing: -0.05em !important;
 }
 
-.pagination > .active > a,
-.pagination > .active > a:focus,
-.pagination > .active > a:hover,
-.pagination > .active > span,
-.pagination > .active > span:focus,
-.pagination > .active > span:hover {
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
   background-color: #009688;
   border-color: #009688;
 }
 
-.pagination > li > a:focus,
-.pagination > li > a:hover,
-.pagination > li > span:focus,
-.pagination > li > span:hover {
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
   color: #009688;
 }
 
-.pagination > li > a,
-.pagination > li > span {
+.pagination>li>a,
+.pagination>li>span {
   color: #009688;
 }
 
-#article-content-wrapper > .header {
+#article-content-wrapper>.header {
   border-top: 2px solid #009688;
 }
 
-#article-reply-area
-  #reply-real-area
-  .reply
-  > .reply-header
-  > .reply-writer.logged,
-#article-reply-area
-  #reply-best-area
-  .reply
-  > .reply-header
-  > .reply-writer.logged {
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
   color: #009688;
 }
 
-#article-info > h2 {
+#article-info>h2 {
   font-weight: 900;
   color: white !important;
 }
 
-#article-info > h2 > span.category {
+#article-info>h2>span.category {
   color: #03dac6 !important;
 }
 
@@ -330,11 +314,11 @@ header #header-bar .fa {
   color: white !important;
 }
 
-#article-reply-area > .header h5 {
+#article-reply-area>.header h5 {
   color: #009688;
 }
 
-#main .menu-wrapper > a {
+#main .menu-wrapper>a {
   padding: 0.5em 1.4em 0.5em 0.7em !important;
 }
 
@@ -348,7 +332,7 @@ span.a-badge i.fa.fa-info-circle {
 
 /* footer */
 
-#article-list > .article-list-row {
+#article-list>.article-list-row {
   border-right: none;
 }
 
@@ -401,7 +385,7 @@ span.a-badge i.fa.fa-info-circle {
   border: none;
 }
 
-#board-info h1 > a {
+#board-info h1>a {
   font-size: 0;
   font-weight: 900;
   color: #18695c !important;
@@ -409,18 +393,18 @@ span.a-badge i.fa.fa-info-circle {
   /* text-shadow: -1px 0 #18695c, 0 1px #18695c, 1px 0 #18695c, 0 -1px #18695c; */
 }
 
-#board-info h1 > a:first-child:before {
+#board-info h1>a:first-child:before {
   content: ' ';
   font-size: 15px !important;
   font-family: FontAwesome;
 }
 
-#board-info h1 > a:first-child:after {
+#board-info h1>a:first-child:after {
   font-size: 15px !important;
   content: ' 서게더 첫 페이지로';
 }
 
-#board-info > img {
+#board-info>img {
   float: left !important;
   margin-right: 10px;
 }
@@ -432,7 +416,7 @@ header {
   /* background: url(https://intelyshoen.github.io/assets/img/intelyshoen/bg2.png) !important; */
 }
 
-#header-bar > .row {
+#header-bar>.row {
   box-shadow: none !important;
 }
 
@@ -440,7 +424,7 @@ header {
   width: 100%;
 }
 
-#main-menu > .menu-wrapper:first-child {
+#main-menu>.menu-wrapper:first-child {
   display: flex;
   box-shadow: none !important;
   position: absolute;
@@ -455,7 +439,7 @@ header {
   padding-right: 15px; */
 }
 
-#main-menu > .menu-wrapper:first-child a {
+#main-menu>.menu-wrapper:first-child a {
   flex: 1.1;
   border-radius: 10px;
   text-align: center !important;
@@ -491,15 +475,15 @@ header {
   color: #18695c !important;
 }
 
-#main-menu > .menu-wrapper:nth-child(2) {
+#main-menu>.menu-wrapper:nth-child(2) {
   display: none;
 }
 
-#main-menu > .menu-wrapper:nth-child(3) {
+#main-menu>.menu-wrapper:nth-child(3) {
   display: none;
 }
 
-#main-menu > .menu-wrapper a > em {
+#main-menu>.menu-wrapper a>em {
   display: none;
 }
 
@@ -511,7 +495,7 @@ header {
   display: none !important;
 }
 
-#main .menu-wrapper > a {
+#main .menu-wrapper>a {
   display: none;
 }
 
@@ -533,7 +517,7 @@ header {
   display: none;
 }
 
-#main-menu > .adsbygoogle {
+#main-menu>.adsbygoogle {
   /* position: absolute;
   bottom: 0;
   width: inherit;
@@ -554,7 +538,7 @@ header {
   position: unset !important;
 }
 
-#board-info > img {
+#board-info>img {
   display: none;
 }
 
@@ -564,18 +548,18 @@ header {
   } */
 }
 
-#main #main-content > div.frame {
+#main #main-content>div.frame {
   background: transparent;
   display: flex;
   flex-direction: column;
 }
 
-#main #main-content > div.frame div {
+#main #main-content>div.frame div {
   flex: auto;
   order: 2;
 }
 
-#main #main-content > div.frame :nth-child(2) {
+#main #main-content>div.frame :nth-child(2) {
   flex: auto;
   order: 1;
 }
@@ -594,7 +578,7 @@ header {
   order: 2;
 }
 
-#article-reply-area + div {
+#article-reply-area+div {
   background-color: white;
 }
 
@@ -606,41 +590,45 @@ header {
   padding-top: 15px;
 }
 
-#content-area > .container #plz-dont-block-me {
+#content-area>.container #plz-dont-block-me {
   top: 50px;
 }
 
-#content-area > .container #weare-out-of-food {
+#content-area>.container #weare-out-of-food {
   top: 50px;
 }
 
-#article-list > .article-list-row > .item > .list-title > .list-category {
+#article-list>.article-list-row>.item>.list-title>.list-category {
   width: 75px;
 }
 
-#board-info h1 > a.badge.badge-live {
+#board-info h1>a.badge.badge-live {
   color: white !important;
 }
 
-#article-list > .article-list-row > .item > .list-title > .list-writer {
+#article-list>.article-list-row>.item>.list-title>.list-writer {
   padding: 0px;
   padding-left: 20px;
 }
 
-#board-info h1 > a.badge.badge-live::after {
+#board-info h1>a.badge.badge-live::after {
   content: '생방송 바로가기';
   font-size: 13px !important;
 }
+
 @media screen and (-ms-high-contrast: active),
-  screen and (-ms-high-contrast: none) {
+screen and (-ms-high-contrast: none) {
   /* IE10+ specific styles go here */
   * {
+    flex: auto;
+  }
+  header #header-bar #header-top-notice {
     flex: auto;
   }
   #main .row {
     flex-direction: column;
   }
-  #main-menu > :first-child.menu-wrapper {
+  #main-menu> :first-child.menu-wrapper {
     position: relative;
   }
   #main #main-content {
