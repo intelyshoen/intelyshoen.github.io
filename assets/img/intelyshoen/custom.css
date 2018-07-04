@@ -79,7 +79,7 @@ header #header-bar #header-menu-right {
 
 header #header-bar.container {
   /* background: #009688 !important; */
-  background: unset !important;
+  background: none !important;
 }
 
 header #header-bar>.row * {
