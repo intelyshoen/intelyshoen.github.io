@@ -20,6 +20,18 @@
 @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 */
 
+:root {
+  --logo-url: url('');
+  --original-logo: block;
+  /* block or none */
+  --background-gradient-color1: #58C9B9;
+  --background-gradient-color2: #9DC8C8;
+  --first-color: #519D9E;
+  --second-color: #519D9E;
+  --third-color: #58C9B9;
+  --forth-color: #D1B6E1;
+}
+
 html {
   /* background: linear-gradient(to bottom, #009688, #e0f2f1); */
   background: url(https://intelyshoen.github.io/assets/img/intelyshoen/bg3.png);
