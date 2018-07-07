@@ -620,6 +620,10 @@ header {
   font-size: 13px !important;
 }
 
+header #header-bar .fa.fa-remove {
+  color: #4a5044 !important;
+}
+
 @media screen and (-ms-high-contrast: active),
 screen and (-ms-high-contrast: none) {
   /* IE10+ specific styles go here */
