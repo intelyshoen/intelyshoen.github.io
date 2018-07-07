@@ -13,8 +13,8 @@
 
 /* base */
 
-@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
-/* @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/* @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 @import url(//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
 @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 */
@@ -32,7 +32,7 @@ body {
   /* background: unset !important; */
   background-color: transparent;
   letter-spacing: -0.05em !important;
-  font-family: 'NanumSquareRound', sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   color: #4a5044;
 }
 
