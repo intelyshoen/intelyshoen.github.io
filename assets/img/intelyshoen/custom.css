@@ -463,7 +463,11 @@ header {
 }
 
 .shortcut-link[href='/fantasy'] {
-  flex: 1.5 !important;
+  flex: 1 !important;
+}
+
+.shortcut-link[href='/issue'] {
+  flex: 1.2 !important;
 }
 
 .shortcut-link[href='/pages/allboard'] {
