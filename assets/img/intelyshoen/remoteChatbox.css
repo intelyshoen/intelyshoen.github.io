@@ -1,16 +1,138 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-#log {
-  font-size: 0.8em !important;
-  font-family: 'Nanum Gothic', sans-serif !important;
+* {
+  letter-spacing: -0.08em;
 }
-span.message > img {
+
+#log {
+  display: flex;
+  flex-direction: column;
+}
+
+#log > div.deleted {
+  visibility: hidden;
+}
+
+#log .emote_wrap {
+  position: relative;
+}
+
+#log .emote_wrap img.emoticon {
+  height: $font_sizepx;
+  vertical-align: middle;
+  margin: -5px 0;
+}
+
+.badge,
+.colon,
+.name {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.name {
+  font-weight: 900;
+}
+
+.colon {
+  display: none;
+}
+
+#log .meta {
+  flex: 1;
+  align-self: center;
+  display: block;
+  text-align: center;
+  padding-right: 4px;
+  position: absolute;
+  top: -0.6em;
+}
+
+.badge {
+  margin-right: 4px;
   height: 1em;
 }
 
-/* span.message>img[href^='https://static-cdn.jtvnw.net/emoticons/v1/560760/'] {
-  width: auto;
-  height: 3em !important;
-} */
+.name {
+  margin-left: 0.1em;
+}
+
+.colon,
+.name {
+  height: 24px;
+}
+
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+#log {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 10px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000,
+    1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 5px #000;
+}
+
+body {
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left 10%,
+    left top,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left 20%,
+    left top,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+}
+
+#log > div {
+  margin-top: 1em;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  padding-bottom: 0.25em;
+  word-wrap: break-word;
+  background: rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+  padding: 8px;
+  line-height: 130%;
+}
+
+body {
+  background: $background_color;
+  color: $text_color;
+  font-size: $font_sizepx;
+}
+
+#log {
+  font: 0.8em '$font_face', serif;
+}
+
+#log > div {
+  animation: fadeOut 1s ease $message_hide_delays forwards;
+  -webkit-animation: fadeOut 1s ease $message_hide_delays forwards;
+}
+
+.message {
+  color: white !important;
+  padding-top: 0.34em;
+  font-weight: 900;
+}
+
+span.message > img {
+  height: 1em;
+}
 
 #log > div[data-from^='a'],
 #log > div[data-from^='o'],
@@ -72,16 +194,12 @@ span.message > img {
   color: rgb(255, 128, 38);
 }
 
-#log > div[data-from^='cb2me'],
-#log > div[data-from^='a434107'],
 #log > div[data-from^='e'],
 #log > div[data-from^='t'],
 #log > div[data-from^='8'] {
   background-color: rgba(151, 203, 69, 0.34);
 }
 
-#log > div[data-from^='cb2me'] > .meta > .name,
-#log > div[data-from^='a434107'] > .meta > .name,
 #log > div[data-from^='e'] > .meta > .name,
 #log > div[data-from^='t'] > .meta > .name,
 #log > div[data-from^='8'] > .meta > .name {
@@ -178,4 +296,17 @@ span.message > img {
 #log > div[data-from^='n'] > .meta > .name,
 #log > div[data-from^='2'] > .meta > .name {
   color: rgb(0, 253, 135);
+}
+span.message > img {
+  height: 1em;
+}
+
+/* span.message>img[href^='https://static-cdn.jtvnw.net/emoticons/v1/560760/'] {
+  width: auto;
+  height: 3em !important;
+} */
+
+#log {
+  font-size: 0.8em !important;
+  font-family: 'Nanum Gothic', sans-serif !important;
 }
