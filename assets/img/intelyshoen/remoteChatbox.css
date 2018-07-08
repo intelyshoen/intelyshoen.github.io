@@ -2,10 +2,10 @@ span.message>img {
   height: 1em;
 }
 
-span.message>img[href^='https://static-cdn.jtvnw.net/emoticons/v1/560760/'] {
+/* span.message>img[href^='https://static-cdn.jtvnw.net/emoticons/v1/560760/'] {
   width: auto;
-  height: 2em;
-}
+  height: 3em !important;
+} */
 
 #log>div[data-from^="a"],
 #log>div[data-from^="o"],
@@ -67,12 +67,16 @@ span.message>img[href^='https://static-cdn.jtvnw.net/emoticons/v1/560760/'] {
   color: rgb(255, 128, 38);
 }
 
+#log>div[data-from^="cb2me"],
+#log>div[data-from^="a434107"],
 #log>div[data-from^="e"],
 #log>div[data-from^="t"],
 #log>div[data-from^="8"] {
   background-color: rgba(151, 203, 69, 0.34);
 }
 
+#log>div[data-from^="cb2me"]>.meta>.name,
+#log>div[data-from^="a434107"]>.meta>.name,
 #log>div[data-from^="e"]>.meta>.name,
 #log>div[data-from^="t"]>.meta>.name,
 #log>div[data-from^="8"]>.meta>.name {
