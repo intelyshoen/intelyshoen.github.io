@@ -1,4 +1,9 @@
-span.message>img {
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+#log {
+  font-size: 0.8em !important;
+  font-family: 'Nanum Gothic', sans-serif !important;
+}
+span.message > img {
   height: 1em;
 }
 
@@ -7,170 +12,170 @@ span.message>img {
   height: 3em !important;
 } */
 
-#log>div[data-from^="a"],
-#log>div[data-from^="o"],
-#log>div[data-from^="3"] {
+#log > div[data-from^='a'],
+#log > div[data-from^='o'],
+#log > div[data-from^='3'] {
   background-color: rgba(0, 35, 249, 0.34);
 }
 
-#log>div[data-from^="a"]>.meta>.name,
-#log>div[data-from^="o"]>.meta>.name,
-#log>div[data-from^="3"]>.meta>.name {
+#log > div[data-from^='a'] > .meta > .name,
+#log > div[data-from^='o'] > .meta > .name,
+#log > div[data-from^='3'] > .meta > .name {
   color: rgb(0, 35, 249);
 }
 
-#log>div[data-from^="b"],
-#log>div[data-from^="p"],
-#log>div[data-from^="4"] {
+#log > div[data-from^='b'],
+#log > div[data-from^='p'],
+#log > div[data-from^='4'] {
   background-color: rgba(255, 21, 31, 0.34);
 }
 
-#log>div[data-from^="b"]>.meta>.name,
-#log>div[data-from^="p"]>.meta>.name,
-#log>div[data-from^="4"]>.meta>.name {
+#log > div[data-from^='b'] > .meta > .name,
+#log > div[data-from^='p'] > .meta > .name,
+#log > div[data-from^='4'] > .meta > .name {
   color: rgb(255, 21, 31);
 }
 
-#log>div[data-from^="c"],
-#log>div[data-from^="q"],
-#log>div[data-from^="5"] {
+#log > div[data-from^='c'],
+#log > div[data-from^='q'],
+#log > div[data-from^='5'] {
   background-color: rgba(0, 127, 23, 0.34);
 }
 
-#log>div[data-from^="c"]>.meta>.name,
-#log>div[data-from^="q"]>.meta>.name,
-#log>div[data-from^="5"]>.meta>.name {
+#log > div[data-from^='c'] > .meta > .name,
+#log > div[data-from^='q'] > .meta > .name,
+#log > div[data-from^='5'] > .meta > .name {
   color: rgb(0, 127, 23);
 }
 
-#log>div[data-from^="d"],
-#log>div[data-from^="r"],
-#log>div[data-from^="6"] {
+#log > div[data-from^='d'],
+#log > div[data-from^='r'],
+#log > div[data-from^='6'] {
   background-color: rgba(184, 38, 41, 0.34);
 }
 
-#log>div[data-from^="d"]>.meta>.name,
-#log>div[data-from^="r"]>.meta>.name,
-#log>div[data-from^="6"]>.meta>.name {
+#log > div[data-from^='d'] > .meta > .name,
+#log > div[data-from^='r'] > .meta > .name,
+#log > div[data-from^='6'] > .meta > .name {
   color: rgb(184, 38, 41);
 }
 
-#log>div[data-from^="d"],
-#log>div[data-from^="s"],
-#log>div[data-from^="7"] {
+#log > div[data-from^='d'],
+#log > div[data-from^='s'],
+#log > div[data-from^='7'] {
   background-color: rgba(255, 128, 38, 0.34);
 }
 
-#log>div[data-from^="d"]>.meta>.name,
-#log>div[data-from^="s"]>.meta>.name,
-#log>div[data-from^="7"]>.meta>.name {
+#log > div[data-from^='d'] > .meta > .name,
+#log > div[data-from^='s'] > .meta > .name,
+#log > div[data-from^='7'] > .meta > .name {
   color: rgb(255, 128, 38);
 }
 
-#log>div[data-from^="cb2me"],
-#log>div[data-from^="a434107"],
-#log>div[data-from^="e"],
-#log>div[data-from^="t"],
-#log>div[data-from^="8"] {
+#log > div[data-from^='cb2me'],
+#log > div[data-from^='a434107'],
+#log > div[data-from^='e'],
+#log > div[data-from^='t'],
+#log > div[data-from^='8'] {
   background-color: rgba(151, 203, 69, 0.34);
 }
 
-#log>div[data-from^="cb2me"]>.meta>.name,
-#log>div[data-from^="a434107"]>.meta>.name,
-#log>div[data-from^="e"]>.meta>.name,
-#log>div[data-from^="t"]>.meta>.name,
-#log>div[data-from^="8"]>.meta>.name {
+#log > div[data-from^='cb2me'] > .meta > .name,
+#log > div[data-from^='a434107'] > .meta > .name,
+#log > div[data-from^='e'] > .meta > .name,
+#log > div[data-from^='t'] > .meta > .name,
+#log > div[data-from^='8'] > .meta > .name {
   color: rgb(151, 203, 69);
 }
 
-#log>div[data-from^="f"],
-#log>div[data-from^="u"],
-#log>div[data-from^="9"] {
+#log > div[data-from^='f'],
+#log > div[data-from^='u'],
+#log > div[data-from^='9'] {
   background-color: rgba(255, 72, 34, 0.34);
 }
 
-#log>div[data-from^="f"]>.meta>.name,
-#log>div[data-from^="u"]>.meta>.name,
-#log>div[data-from^="9"]>.meta>.name {
+#log > div[data-from^='f'] > .meta > .name,
+#log > div[data-from^='u'] > .meta > .name,
+#log > div[data-from^='9'] > .meta > .name {
   color: rgb(255, 72, 34);
 }
 
-#log>div[data-from^="g"],
-#log>div[data-from^="v"] {
+#log > div[data-from^='g'],
+#log > div[data-from^='v'] {
   background-color: rgba(29, 138, 90, 0.34);
 }
 
-#log>div[data-from^="g"]>.meta>.name,
-#log>div[data-from^="v"]>.meta>.name {
+#log > div[data-from^='g'] > .meta > .name,
+#log > div[data-from^='v'] > .meta > .name {
   color: rgb(29, 138, 90);
 }
 
-#log>div[data-from^="h"],
-#log>div[data-from^="w"] {
+#log > div[data-from^='h'],
+#log > div[data-from^='w'] {
   background-color: rgba(222, 164, 65, 0.34);
 }
 
-#log>div[data-from^="h"]>.meta>.name,
-#log>div[data-from^="w"]>.meta>.name {
+#log > div[data-from^='h'] > .meta > .name,
+#log > div[data-from^='w'] > .meta > .name {
   color: rgb(222, 164, 65);
 }
 
-#log>div[data-from^="i"],
-#log>div[data-from^="x"] {
+#log > div[data-from^='i'],
+#log > div[data-from^='x'] {
   background-color: rgba(216, 106, 45, 0.34);
 }
 
-#log>div[data-from^="i"]>.meta>.name,
-#log>div[data-from^="x"]>.meta>.name {
+#log > div[data-from^='i'] > .meta > .name,
+#log > div[data-from^='x'] > .meta > .name {
   color: rgb(216, 106, 45);
 }
 
-#log>div[data-from^="j"],
-#log>div[data-from^="y"] {
+#log > div[data-from^='j'],
+#log > div[data-from^='y'] {
   background-color: rgba(88, 158, 159, 0.34);
 }
 
-#log>div[data-from^="j"]>.meta>.name,
-#log>div[data-from^="y"]>.meta>.name {
+#log > div[data-from^='j'] > .meta > .name,
+#log > div[data-from^='y'] > .meta > .name {
   color: rgb(88, 158, 159);
 }
 
-#log>div[data-from^="k"],
-#log>div[data-from^="z"] {
+#log > div[data-from^='k'],
+#log > div[data-from^='z'] {
   background-color: rgba(0, 146, 250, 0.34);
 }
 
-#log>div[data-from^="k"]>.meta>.name,
-#log>div[data-from^="z"]>.meta>.name {
+#log > div[data-from^='k'] > .meta > .name,
+#log > div[data-from^='z'] > .meta > .name {
   color: rgb(0, 146, 250);
 }
 
-#log>div[data-from^="l"],
-#log>div[data-from^="0"] {
+#log > div[data-from^='l'],
+#log > div[data-from^='0'] {
   background-color: rgba(255, 109, 179, 0.34);
 }
 
-#log>div[data-from^="l"]>.meta>.name,
-#log>div[data-from^="0"]>.meta>.name {
+#log > div[data-from^='l'] > .meta > .name,
+#log > div[data-from^='0'] > .meta > .name {
   color: rgb(255, 109, 179);
 }
 
-#log>div[data-from^="m"],
-#log>div[data-from^="1"] {
+#log > div[data-from^='m'],
+#log > div[data-from^='1'] {
   background-color: rgba(140, 55, 221, 0.34);
 }
 
-#log>div[data-from^="m"]>.meta>.name,
-#log>div[data-from^="1"]>.meta>.name {
+#log > div[data-from^='m'] > .meta > .name,
+#log > div[data-from^='1'] > .meta > .name {
   color: rgb(140, 55, 221);
 }
 
-#log>div[data-from^="n"],
-#log>div[data-from^="2"] {
+#log > div[data-from^='n'],
+#log > div[data-from^='2'] {
   background-color: rgba(0, 253, 135, 0.34);
 }
 
-#log>div[data-from^="n"]>.meta>.name,
-#log>div[data-from^="2"]>.meta>.name {
+#log > div[data-from^='n'] > .meta > .name,
+#log > div[data-from^='2'] > .meta > .name {
   color: rgb(0, 253, 135);
 }
