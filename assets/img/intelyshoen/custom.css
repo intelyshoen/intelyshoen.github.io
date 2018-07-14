@@ -343,8 +343,8 @@ a {
 }
 
 span.a-badge i.fa.fa-info-circle {
-  /* color: #004d40; */
-  color: white;
+  color: #004d40;
+  /* color: white; */
 }
 
 /* footer */
@@ -651,7 +651,7 @@ header #header-bar .fa.fa-remove {
 #article-list > .article-list-row > .item > .list-header {
   border-left: none !important;
 }
-div.article-list-row.has-category.notice {
+/* div.article-list-row.has-category.notice {
   background: #2a946f !important;
 }
 div.article-list-row.has-category.notice .list-title > * {
@@ -665,7 +665,7 @@ div.article-list-row.has-category.notice .list-writer > * {
 }
 div.article-list-row.has-category.notice .list-time {
   color: white !important;
-}
+} */
 /* #article-list-row-6843845 .list-title {
 
   background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtnotice1.png)
