@@ -694,6 +694,9 @@ div.article-list-row.has-category.notice .list-time {
   background-position: right center;
   background-size: 39%;
 }
+.notice > .item > * {
+  text-shadow: 0px 0px 5px #000;
+}
 
 @media screen and (-ms-high-contrast: active),
   screen and (-ms-high-contrast: none) {
