@@ -130,14 +130,14 @@ header #header-bar {
   background: #00695c;
 }
 
-/* span.a-badge i.fa.fa-star {
+span.a-badge i.fa.fa-star {
   color: transparent;
   background: url(https://intelyshoen.github.io/assets/img/intelyshoen/ico-plat.png)
     no-repeat;
   background-size: 15px auto;
   width: 15px;
   background-position: left bottom;
-} */
+}
 
 .fa-navicon:before,
 .fa-reorder:before,
