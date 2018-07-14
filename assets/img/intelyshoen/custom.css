@@ -693,9 +693,9 @@ div.article-list-row.has-category.notice .list-time {
   background-position: right center;
   background-size: 39%;
 } */
-.notice > .item > * {
+/* .notice > .item > * {
   text-shadow: 0px 0px 5px #000;
-}
+} */
 #article-content-wrapper {
   padding: 0 !important;
 }
