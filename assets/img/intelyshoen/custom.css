@@ -665,10 +665,9 @@ div.article-list-row.has-category.notice .list-writer > * {
 }
 div.article-list-row.has-category.notice .list-time {
   color: white !important;
-  background: #00685c !important;
 }
-#article-list-row-6843845 .list-title {
-  /* background: white !important; */
+/* #article-list-row-6843845 .list-title {
+
   background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtnotice1.png)
     no-repeat;
   background-position: right center;
@@ -693,7 +692,7 @@ div.article-list-row.has-category.notice .list-time {
     no-repeat;
   background-position: right center;
   background-size: 39%;
-}
+} */
 .notice > .item > * {
   text-shadow: 0px 0px 5px #000;
 }
