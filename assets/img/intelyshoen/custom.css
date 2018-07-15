@@ -89,7 +89,9 @@ header #right-search-form > #right-search-btn {
 }
 
 /* 헤더 [광고]배경색 */
-
+header #header-bar #header-top-notice {
+  color: white !important;
+}
 header #header-bar #header-top-notice strong.notice-badge {
   background: #010202;
 }
