@@ -352,3 +352,7 @@ footer * {
 #article-list > .article-list-row > .item > .list-title > a:visited {
   color: #888 !important;
 }
+#boardSearchForm * {
+  background: transparent !important;
+  border: none !important;
+}
