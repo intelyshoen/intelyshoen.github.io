@@ -1,7 +1,12 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 html {
   /* background: linear-gradient(to bottom, #58C9B9, #9DC8C8); */
+  background: #f3f2f0
+    url(https://intelyshoen.github.io/assets/img/intelyshoen/snrear.png);
   height: auto !important;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 810px;
 }
 
 body {
@@ -48,7 +53,10 @@ header #right-search-form > input[type='text'] {
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
 
 #main .menu-wrapper > .header {
+  border-radius: 5px 5px 0 0;
   background: #245c73;
+  font-weight: 900;
+  text-shadow: 1px 1px 5px #000;
 }
 
 .fa-navicon:before,
@@ -117,7 +125,7 @@ header #header-bar a.dropdown-toggle {
 /* 게시글 관련부분 */
 
 #article-list > .article-list-row > .item > .list-title > .list-writer > span {
-  width: 120px !important;
+  width: 170px !important;
 }
 
 #article-list #article-list-category {
@@ -267,4 +275,21 @@ header #header-bar #header-menu-right {
 }
 header #header-bar #header-menu-left {
   border-right: none;
+}
+#article-content-wrapper {
+  padding: 0;
+}
+#article-list > .article-list-row > .item > .list-title > .list-writer {
+  text-align: left;
+}
+#article-list > .article-list-row > .item > .list-title > .list-category {
+  width: 80px;
+}
+#article-list > .article-list-row > .item > .list-checkbox,
+#article-list > .article-list-row > .item > .list-header,
+#article-list > .article-list-row > .item > .list-category,
+#article-list > .article-list-row > .item > .list-title,
+#article-list > .article-list-row > .item > .list-blocked,
+#article-list > .article-list-row > .item > .list-time {
+  border-bottom: 1px dashed #5c93a7;
 }
