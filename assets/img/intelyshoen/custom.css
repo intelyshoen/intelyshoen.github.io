@@ -1,161 +1,71 @@
-/*
-컨셉색상코드
-#4a5044
-#009688
-#f3dcba
-#a6c1c8
-#fff
-
-추가색상코드
-#009688
-#00796B
-*/
-
-/* base */
-
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-/* @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
-@import url(//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
-@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
-*/
-
 html {
-  /* background: linear-gradient(to bottom, #009688, #e0f2f1); */
-  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/bg3.png);
-  background-repeat: repeat-x;
-  letter-spacing: -0.05em !important;
-  background-color: #e0f2f1;
+  /* background: linear-gradient(to bottom, #58C9B9, #9DC8C8); */
+  height: auto !important;
 }
 
 body {
-  /* background: #009688; */
-  /* background: unset !important; */
-  background-color: transparent;
-  letter-spacing: -0.05em !important;
+  background: transparent;
   font-family: 'Nanum Gothic', sans-serif;
-  color: #4a5044;
-}
-
-#content-area {
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 /* 전체 쉐도우 */
 
-#main #main-content > div.frame {
-  /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); */
+header #header-bar>.row,
+#main .menu-wrapper,
+#main #main-content>div.frame {
+  /* box-shadow: 3px 0px 10px rgba(0, 0, 0, 0.2); */
 }
 
 /* 로고밑 NAV bar */
 
-header #header-bar {
-  margin-bottom: 0;
-}
-
-header #header-bar > .row {
-  /* border-top: 2px solid #009688; */
-  border-top: none;
-  margin-top: 2px;
-  background: transparent !important;
+header #header-bar>.row {
+  border-top: 4px solid #519D9E;
   border-right: none;
   border-bottom: none;
-  display: flex;
-}
-
-header #header-bar #header-menu-left {
-  border: none;
-  flex: auto;
-}
-
-header #header-bar #header-top-notice {
-  flex: 4;
-}
-
-header #header-bar #header-menu-right {
-  border: none;
-  flex: auto;
-}
-
-header #header-bar.container {
-  /* background: #009688 !important; */
-  background: none !important;
-}
-
-header #header-bar > .row * {
-  /* border: none !important; */
-}
-
-header #header-bar > .row .dropdown-menu a {
-  color: black !important;
-}
-
-header #header-bar > .row .dropdown-menu a > * {
-  color: black !important;
-}
-
-header #header-bar > .row * {
-  color: white !important;
 }
 
 /* 헤더 배너 */
 
-header .row > div:nth-child(1) > a {
+header .row>div:nth-child(1)>a {
   display: block;
   width: 145px;
-  height: 62px;
-  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgt.png)
-    no-repeat;
-  background-size: 145px 62px;
+  height: 50px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgt.png) no-repeat;
+  background-size: 145px 50px;
 }
 
-header .row > div:nth-child(1) > a > img {
+header .row>div:nth-child(1)>a>img {
   display: none;
+  filter: grayscale(100%);
+  opacity: 0.8;
 }
 
 /* 검색폼 보더 */
 
-header #right-search-form > input[type='text'] {
-  width: 186px !important;
-  border: 3px solid #4a5044;
-}
-
-header #header-bar {
-  margin-top: 0 !important;
+header #right-search-form>input[type='text'] {
+  border: 3px solid #58C9B9;
 }
 
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
 
-#main .menu-wrapper > .header {
-  background: #00695c;
-}
-
-span.a-badge i.fa.fa-star {
-  color: transparent;
-  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/ico-plat.png)
-    no-repeat;
-  background-size: 15px auto;
-  width: 15px;
-  background-position: left bottom;
+#main .menu-wrapper>.header {
+  background: #519D9E;
 }
 
 .fa-navicon:before,
 .fa-reorder:before,
 .fa-bars:before {
-  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/ico.png)
-    no-repeat;
-  background-size: 15px auto;
-  color: transparent;
-  /* padding-right: 0; */
-  /* margin-right: 0; */
-  width: 15px;
-  display: inline-block;
+  color: white;
 }
 
-header #header-bar > .row,
+.fa-square:before {
+  color: #D1B6E1;
+}
+
+header #header-bar>.row,
 #main .menu-wrapper,
-#main #main-content > div.frame {
-  /* box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2); */
+#main #main-content>div.frame {
   border-right: none;
   border-bottom: none;
 }
@@ -164,192 +74,128 @@ header #header-bar > .row,
   border: none;
 }
 
-header {
-  padding: 0 !important;
-}
-
-header > .container {
-  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/snrpixelart.png)
-    no-repeat;
-  background-position: 75% -20px;
-  background-size: 113px auto;
-}
-
-header > .container > .row {
-  position: relative;
-  padding-bottom: 0.5em;
-  padding-top: 0.5em;
-}
-
-header :first-child > .row > .col-xs-8 {
-  position: absolute;
-  right: 0;
-  bottom: 0.8em;
-}
-
 /* 헤더 검색 버튼 */
 
-header #right-search-form > #right-search-btn {
-  color: #4a5044;
+header #right-search-form>#right-search-btn {
+  color: #58C9B9;
 }
 
 /* 헤더 [광고]배경색 */
 
 header #header-bar #header-top-notice strong.notice-badge {
-  color: #009688 !important;
-  background: white;
+  background: #519D9E;
 }
 
 /* fa색상 */
 
 header #header-bar .fa {
-  color: #4a5044;
+  color: #58C9B9;
 }
 
-/* #board-info-bottom::after {
-  content: '<i class="fa fa-film"></i>유튜브';
-  color: white;
-} */
+/* 스트리머 게시판 상단 정보 글씨색상 */
+
+#board-info #board-info-bottom a {
+  color: #519D9E;
+}
 
 /* 좌측메뉴 숏컷링크 글씨 색상 */
 
-#main .menu-wrapper > a > em {
-  color: #f3dcba;
+#main .menu-wrapper>a>em {
+  color: #D1B6E1;
 }
 
 /* 좌측메뉴 메뉴사이의 공간 색상 */
 
 #main .menu-wrapper .spacer {
-  background: #f3dcba;
+  background: #D1B6E1;
   height: 0.15em;
 }
 
 /* 게시글 관련부분 */
 
-#article-list {
-  margin-top: 0 !important;
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
-  background-color: white;
-  padding: 0;
-  flex: auto;
-  order: 3;
-}
-
-#article-list > .article-list-row > .item > .list-title {
-  /* padding: 10px 0; */
-}
-
-#article-list > .article-list-row > .item > .list-title > .list-writer > span {
-  width: 170px !important;
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+  width: 120px !important;
 }
 
 #article-list #article-list-category {
-  border-top: 2px solid #009688;
-  /* background: white; */
-  background: #18695c;
+  border-top: 2px solid #519D9E;
+  background: white;
 }
 
-#article-list #article-list-category > a {
-  background: #18695c !important;
+#article-list #article-list-category>a {
+  background: white;
 }
 
-.nav-link {
-  color: white !important;
+#article-list>.article-list-row>.item>.list-header>span {
+  background-color: #519D9E;
 }
 
-#article-list > .article-list-row > .item > .list-header > span {
-  background-color: #009688;
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+  color: #519D9E;
 }
 
-#article-list > .article-list-row > .item > .list-title > small.comment-count {
-  color: #009688;
-  letter-spacing: -0.05em !important;
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+  color: #519D9E;
 }
 
-#article-list
-  > .article-list-row
-  > .item
-  > .list-title
-  > .list-writer.logged
-  > span {
-  color: #009688;
-  font-weight: 900;
-  text-align: left !important;
-  letter-spacing: -0.05em !important;
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+  background-color: #519D9E;
+  border-color: #519D9E;
 }
 
-.pagination > .active > a,
-.pagination > .active > a:focus,
-.pagination > .active > a:hover,
-.pagination > .active > span,
-.pagination > .active > span:focus,
-.pagination > .active > span:hover {
-  background-color: #009688;
-  border-color: #009688;
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+  color: #519D9E;
 }
 
-.pagination > li > a:focus,
-.pagination > li > a:hover,
-.pagination > li > span:focus,
-.pagination > li > span:hover {
-  color: #009688;
+.pagination>li>a,
+.pagination>li>span {
+  color: #519D9E;
 }
 
-.pagination > li > a,
-.pagination > li > span {
-  color: #009688;
+#article-content-wrapper>.header {
+  border-top: 2px solid #519D9E;
 }
 
-#article-content-wrapper > .header {
-  border-top: 2px solid #009688;
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #519D9E;
 }
 
-#article-reply-area
-  #reply-real-area
-  .reply
-  > .reply-header
-  > .reply-writer.logged,
-#article-reply-area
-  #reply-best-area
-  .reply
-  > .reply-header
-  > .reply-writer.logged {
-  color: #009688;
+#article-info>h2 {
+  font-weight: bold;
 }
 
-#article-info > h2 {
-  font-weight: 900;
-  color: white !important;
+#article-info>h2>span.category {
+  color: #519D9E !important;
 }
 
-#article-info > h2 > span.category {
-  color: #03dac6 !important;
+#article-reply-area>.header h5 {
+  color: #519D9E;
 }
 
-#article-info-writer {
-  color: white !important;
-}
-
-#article-reply-area > .header h5 {
-  color: #009688;
-}
-
-#main .menu-wrapper > a {
+#main .menu-wrapper>a {
   padding: 0.5em 1.4em 0.5em 0.7em !important;
 }
 
 a {
-  color: #009688;
+  color: #519D9E;
 }
 
 span.a-badge i.fa.fa-info-circle {
-  color: #004d40;
-  /* color: white; */
+  color: #519D9E;
 }
 
 /* footer */
 
-#article-list > .article-list-row {
+#article-list>.article-list-row {
   border-right: none;
 }
 
@@ -365,360 +211,5 @@ span.a-badge i.fa.fa-info-circle {
 }
 
 .btn-primary {
-  background: #4a5044 !important;
-}
-
-/* profile */
-
-#board-info {
-  background-color: transparent;
-  height: unset;
-  margin: 0;
-  display: flex;
-  padding: 10px;
-  /* border: 1px solid #39956e; */
-  border-bottom: none;
-  margin-top: 15px;
-  /* width: 1070px; */
-}
-
-/* 스트리머 게시판 상단 정보 글씨색상 */
-
-#board-info #board-info-bottom a {
-  /* color: white; */
-  color: #18695c !important;
-}
-
-#board-info #board-info-bottom {
-  padding: 0;
-  flex: auto;
-  text-align: right;
-}
-
-#board-info h1 {
-  flex: auto;
-  padding-bottom: 0;
-  font-size: 15px;
-  border: none;
-}
-
-#board-info h1 > a {
-  font-size: 0;
-  font-weight: 900;
-  color: #18695c !important;
-  /* text-shadow: 3px 0px 0px 0px #004d40; */
-  /* text-shadow: -1px 0 #18695c, 0 1px #18695c, 1px 0 #18695c, 0 -1px #18695c; */
-}
-
-#board-info h1 > a:first-child:before {
-  content: ' ';
-  font-size: 15px !important;
-  font-family: FontAwesome;
-}
-
-#board-info h1 > a:first-child:after {
-  font-size: 15px !important;
-  content: ' 서게더 첫 페이지로';
-}
-
-#board-info > img {
-  float: left !important;
-  margin-right: 10px;
-}
-
-/* 메뉴관리 */
-
-header {
-  /* background-color: #00695c !important; */
-  /* background: url(https://intelyshoen.github.io/assets/img/intelyshoen/bg2.png) !important; */
-}
-
-#header-bar > .row {
-  box-shadow: none !important;
-}
-
-#main-menu {
-  width: 100%;
-}
-
-#main-menu > .menu-wrapper:first-child {
-  display: flex;
-  box-shadow: none !important;
-  position: absolute;
-  top: -2px !important;
-  padding-right: 30px;
-  /* width: 1070px; */
-  width: 100%;
-}
-
-#main {
-  /* padding-left: 15px;
-  padding-right: 15px; */
-}
-
-#main-menu > .menu-wrapper:first-child a {
-  flex: 1.1;
-  border-radius: 10px;
-  text-align: center !important;
-  padding: 8px 0 !important;
-  margin: 0 5px;
-  background: transparent;
-  color: #18695c;
-  border-bottom: none;
-  font-size: 12px;
-  overflow: hidden;
-  letter-spacing: -0.1em;
-}
-
-.shortcut-link[href='/all'] {
-  display: none !important;
-  margin-left: 0 !important;
-}
-
-.shortcut-link[href='/suggestion'] {
-  margin-right: 0 !important;
-}
-
-.shortcut-link[href='/fantasy'] {
-  flex: 1 !important;
-}
-
-.shortcut-link[href='/issue'] {
-  flex: 1.2 !important;
-}
-
-.shortcut-link[href='/pages/allboard'] {
-  margin-left: 0 !important;
-  flex: 1.4 !important;
-}
-
-#board-info #viewers-area {
-  color: #18695c !important;
-}
-
-#main-menu > .menu-wrapper:nth-child(2) {
-  display: none;
-}
-
-#main-menu > .menu-wrapper:nth-child(3) {
-  display: none;
-}
-
-#main-menu > .menu-wrapper a > em {
-  display: none;
-}
-
-#main .menu-wrapper .spacer {
-  display: none;
-}
-
-.game-wrapper {
-  display: none !important;
-}
-
-#main .menu-wrapper > a {
-  display: none;
-}
-
-#main .row {
-  display: flex;
-  flex-direction: column-reverse;
-}
-
-#main #main-menu {
-  flex: auto;
-}
-
-#main #main-content {
-  flex: auto;
-  margin-top: 40px;
-}
-
-#main-menu .header {
-  display: none;
-}
-
-#main-menu > .adsbygoogle {
-  /* position: absolute;
-  bottom: 0;
-  width: inherit;
-  height: 90px; */
-}
-
-.shortcut-link {
-  display: block !important;
-}
-
-#main-content {
-  padding-left: 0px;
-  width: 100%;
-  /* position: unset !important; */
-}
-
-#main-menu {
-  position: unset !important;
-}
-
-#board-info > img {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  /* .container {
-    width: unset !important;
-  } */
-}
-
-#main #main-content > div.frame {
-  background: transparent;
-  display: flex;
-  flex-direction: column;
-}
-
-#main #main-content > div.frame div {
-  flex: auto;
-  order: 2;
-}
-
-#main #main-content > div.frame :nth-child(2) {
-  flex: auto;
-  order: 1;
-}
-
-/* #main #main-content #board-info {
-  flex: auto;
-  order: 2;
-} */
-
-#article-info,
-#article-content-wrapper,
-#article-reply-area {
-  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
-  background-color: white;
-  flex: auto;
-  order: 2;
-}
-
-#article-reply-area + div {
-  background-color: white;
-}
-
-#article-info {
-  background: #00695c;
-}
-
-#article-content-wrapper {
-  padding-top: 15px;
-}
-
-#content-area > .container #plz-dont-block-me {
-  top: 50px;
-}
-
-#content-area > .container #weare-out-of-food {
-  top: 50px;
-}
-
-#article-list > .article-list-row > .item > .list-title > .list-category {
-  width: 75px;
-}
-
-#board-info h1 > a.badge.badge-live {
-  color: white !important;
-}
-
-#article-list > .article-list-row > .item > .list-title > .list-writer {
-  padding: 0px;
-  padding-left: 20px;
-}
-
-#board-info h1 > a.badge.badge-live::after {
-  content: '생방송 바로가기';
-  font-size: 13px !important;
-}
-
-header #header-bar .fa.fa-remove {
-  color: #4a5044 !important;
-}
-
-.row .col-xs-12 {
-  position: absolute;
-  width: 100%;
-  z-index: 1;
-  margin-top: 40px;
-}
-
-#article-list > .article-list-row > .item > .list-header {
-  border-left: none !important;
-}
-/* div.article-list-row.has-category.notice {
-  background: #2a946f !important;
-}
-div.article-list-row.has-category.notice .list-title > * {
-  color: white !important;
-}
-div.article-list-row.has-category.notice .list-header > * {
-  color: white !important;
-}
-div.article-list-row.has-category.notice .list-writer > * {
-  color: white !important;
-}
-div.article-list-row.has-category.notice .list-time {
-  color: white !important;
-} */
-/* #article-list-row-6843845 .list-title {
-
-  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtnotice1.png)
-    no-repeat;
-  background-position: right center;
-  background-size: 39%;
-}
-
-#article-list-row-2684692 .list-title {
-  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtnotice2.png)
-    no-repeat;
-  background-position: right center;
-  background-size: 39%;
-}
-
-#article-list-row-2451840 .list-title {
-  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtnotice3.png)
-    no-repeat;
-  background-position: right center;
-  background-size: 39%;
-}
-#article-list-row-2321075 .list-title {
-  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtnotice4.png)
-    no-repeat;
-  background-position: right center;
-  background-size: 39%;
-} */
-/* .notice > .item > * {
-  text-shadow: 0px 0px 5px #000;
-} */
-#article-content-wrapper {
-  padding: 0 !important;
-}
-
-@media screen and (-ms-high-contrast: active),
-  screen and (-ms-high-contrast: none) {
-  /* IE10+ specific styles go here */
-  * {
-    flex: auto;
-  }
-  header #header-bar #header-top-notice {
-    flex: auto;
-  }
-  #main .row {
-    flex-direction: column;
-  }
-  #main-menu > :first-child.menu-wrapper {
-    position: relative;
-  }
-  #main #main-content {
-    margin-top: 0;
-  }
-  #board-info {
-    height: auto;
-  }
+  background: #58C9B9 !important;
 }
