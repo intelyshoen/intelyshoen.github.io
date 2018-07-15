@@ -2,11 +2,12 @@
 html {
   /* background: linear-gradient(to bottom, #58C9B9, #9DC8C8); */
   height: auto !important;
-  /* background: #f3f2f0
+  background: #f3f2f0
     url(https://intelyshoen.github.io/assets/img/intelyshoen/snrear.png);
   background-repeat: no-repeat;
   background-position: bottom center;
-  background-size: 810px; */
+  background-size: 810px;
+  min-width: 1100px;
 }
 
 body {
@@ -307,10 +308,10 @@ header #header-bar #header-menu-left {
 footer * {
   color: white !important;
 }
-footer {
+/* footer {
   outline: 5px dashed #010202;
   background: #245c73;
-}
+} */
 
 #article-reply-area #reply-real-area .reply > .reply-content,
 #article-reply-area #reply-best-area .reply > .reply-content {
