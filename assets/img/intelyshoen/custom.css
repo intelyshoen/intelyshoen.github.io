@@ -235,6 +235,7 @@ header {
   margin-bottom: 1em;
   background-color: #245c73;
   outline: 5px dashed #010202;
+  padding-bottom: 0;
 }
 header #header-bar {
   margin-bottom: 0;
@@ -242,4 +243,10 @@ header #header-bar {
 
 .dropdown-menu-right {
   /* display: block; */
+}
+.fa .fa-remove {
+  color: #5c93a7 !important;
+}
+#header-top-notice > a {
+  color: white !important;
 }
