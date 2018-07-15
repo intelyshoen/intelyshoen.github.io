@@ -345,3 +345,6 @@ footer {
 #article-info #article-info-writer {
   padding-bottom: 4px;
 }
+.notice {
+  background: #f0e4d8 !important;
+}
