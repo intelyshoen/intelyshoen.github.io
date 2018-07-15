@@ -42,6 +42,7 @@ header .row > div:nth-child(1) > a > img {
 
 header #right-search-form > input[type='text'] {
   border: 3px solid #5c93a7;
+  background: transparent;
 }
 
 /* 트게더 전체메뉴 / 유용한링크 / 트위치 스케쥴 */
@@ -82,7 +83,7 @@ header #right-search-form > #right-search-btn {
 /* 헤더 [광고]배경색 */
 
 header #header-bar #header-top-notice strong.notice-badge {
-  background: #245c73;
+  background: #010202;
 }
 
 /* fa색상 */
@@ -253,4 +254,17 @@ header #header-bar {
 }
 #header-top-notice > a {
   color: white !important;
+}
+
+#article-list {
+  padding: 0 !important;
+}
+#article-list > .article-list-row > .item > .list-header {
+  border-left: none;
+}
+header #header-bar #header-menu-right {
+  border-left: none;
+}
+header #header-bar #header-menu-left {
+  border-right: none;
 }
