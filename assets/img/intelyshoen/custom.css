@@ -342,3 +342,6 @@ footer {
 #article-content-wrapper > .vote-area {
   background: white !important;
 }
+#article-info #article-info-writer {
+  padding-bottom: 4px;
+}
