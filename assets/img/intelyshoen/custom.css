@@ -310,3 +310,6 @@ footer {
   background: #f3f2f0 !important;
   color: #f3f2f0 !important;
 }
+.dropdown-menu {
+  text-shadow: none;
+}
