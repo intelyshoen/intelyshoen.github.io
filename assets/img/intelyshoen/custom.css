@@ -348,3 +348,6 @@ footer {
 .notice {
   background: #f0e4d8 !important;
 }
+#article-list > .article-list-row > .item > .list-title > a:visited {
+  color: #888 !important;
+}
