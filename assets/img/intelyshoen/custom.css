@@ -241,6 +241,7 @@ span.a-badge i.fa.fa-info-circle {
 /* custom */
 
 header {
+  text-shadow: 0px 0px 2px #000;
   margin-bottom: 1em;
   outline: 5px dashed #010202;
   padding-bottom: 0;
@@ -299,4 +300,8 @@ footer * {
 footer {
   outline: 5px dashed #010202;
   background: #245c73;
+}
+
+#article-reply-area #reply-best-area .reply > .reply-content {
+  background: white !important;
 }
