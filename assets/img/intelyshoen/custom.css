@@ -338,3 +338,7 @@ footer {
 #article-content-wrapper > .footer {
   border-top: 2px solid #245c73;
 }
+#article-content-wrapper #article-content,
+#article-content-wrapper > .vote-area {
+  background: white !important;
+}
