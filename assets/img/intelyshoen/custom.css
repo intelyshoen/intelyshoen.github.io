@@ -233,12 +233,12 @@ span.a-badge i.fa.fa-info-circle {
 
 header {
   margin-bottom: 1em;
-  background-color: #245c73;
   outline: 5px dashed #010202;
   padding-bottom: 0;
   background: url(https://intelyshoen.github.io/assets/img/intelyshoen/snrpixelartbluetone.png)
     no-repeat;
-  background-size: 7% auto;
+  background-size: 95px auto;
+  background-color: #245c73 !important;
   background-position: 71% 5px;
 }
 header #header-bar {
@@ -248,7 +248,7 @@ header #header-bar {
 .dropdown-menu-right {
   /* display: block; */
 }
-.fa .fa-remove {
+.fa.fa-remove {
   color: #5c93a7 !important;
 }
 #header-top-notice > a {
