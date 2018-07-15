@@ -302,6 +302,7 @@ footer {
   background: #245c73;
 }
 
+#article-reply-area #reply-real-area .reply > .reply-content,
 #article-reply-area #reply-best-area .reply > .reply-content {
   background: white !important;
 }
