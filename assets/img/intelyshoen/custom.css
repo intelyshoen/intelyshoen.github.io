@@ -235,10 +235,10 @@ header {
   margin-bottom: 1em;
   outline: 5px dashed #010202;
   padding-bottom: 0;
-  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/snrpixelartbluetone.png)
+  background: #245c73
+    url(https://intelyshoen.github.io/assets/img/intelyshoen/snrpixelartbluetone.png)
     no-repeat;
   background-size: 95px auto;
-  background-color: #245c73 !important;
   background-position: 71% 5px;
 }
 header #header-bar {
