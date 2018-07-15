@@ -305,3 +305,7 @@ footer {
 #article-reply-area #reply-best-area .reply > .reply-content {
   background: white !important;
 }
+.v0 > span {
+  background: #f3f2f0 !important;
+  color: #f3f2f0 !important;
+}
