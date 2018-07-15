@@ -207,7 +207,7 @@ header #header-bar a.dropdown-toggle {
 }
 
 #article-info > h2 > span.category {
-  color: #245c73 !important;
+  /* color: #245c73 !important; */
 }
 
 #article-reply-area > .header h5 {
@@ -322,4 +322,16 @@ footer {
 }
 .dropdown-menu {
   text-shadow: none;
+}
+#comment-write-form-area,
+#article-reply-area #reply-real-area,
+#article-reply-area #reply-best-area {
+  padding: 0;
+}
+#article-info {
+  border-radius: 5px 5px 0 0;
+  background: #245c73;
+}
+#article-info * {
+  color: white !important;
 }
