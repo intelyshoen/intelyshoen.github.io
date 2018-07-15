@@ -1,12 +1,12 @@
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
 html {
   /* background: linear-gradient(to bottom, #58C9B9, #9DC8C8); */
-  background: #f3f2f0
-    url(https://intelyshoen.github.io/assets/img/intelyshoen/snrear.png);
   height: auto !important;
+  /* background: #f3f2f0
+    url(https://intelyshoen.github.io/assets/img/intelyshoen/snrear.png);
   background-repeat: no-repeat;
   background-position: bottom center;
-  background-size: 810px;
+  background-size: 810px; */
 }
 
 body {
@@ -292,4 +292,11 @@ header #header-bar #header-menu-left {
 #article-list > .article-list-row > .item > .list-blocked,
 #article-list > .article-list-row > .item > .list-time {
   border-bottom: 1px dashed #5c93a7;
+}
+footer * {
+  color: white !important;
+}
+footer {
+  outline: 5px dashed #010202;
+  background: #245c73;
 }
