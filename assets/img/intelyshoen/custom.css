@@ -32,7 +32,7 @@ header .row>div:nth-child(1)>a {
   width: 145px;
   height: 50px;
   background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgt.png) no-repeat;
-  background-size: 145px 50px;
+  background-size: auto 50px;
 }
 
 header .row>div:nth-child(1)>a>img {
