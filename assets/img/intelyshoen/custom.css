@@ -122,7 +122,7 @@ header #header-bar a.dropdown-toggle {
 }
 
 #board-info h1>a.badge.badge-live::after {
-  content: '송 바로가기';
+  content: '생방송 바로가기';
   color: white !important;
   font-size: 13px !important;
 }
