@@ -127,6 +127,10 @@ header #header-bar a.dropdown-toggle {
   font-size: 13px !important;
 }
 
+.viewers::after {
+  content: '명의 무쨍이들';
+}
+
 #board-info #board-info-bottom {
   padding: 0;
   flex: auto;
