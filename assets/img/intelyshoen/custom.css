@@ -7,17 +7,11 @@ html {
   background-position: bottom center;
   background-size: 810px;
   min-width: 1100px;
-  letter-spacing: -0.05em !important;
 }
 
 body {
   background: transparent;
-  letter-spacing: -0.05em !important;
   font-family: 'Nanum Gothic', sans-serif;
-}
-
-#article-list>.article-list-row>.item>.list-title>small.comment-count {
-  letter-spacing: -0.05em !important;
 }
 
 /* 전체 쉐도우 */
@@ -119,7 +113,7 @@ header #header-bar a.dropdown-toggle {
   margin: 0;
   display: flex;
   padding: 10px;
-  /* padding-bottom: 2px; */
+  padding-bottom: 2px;
   /* border: 1px solid #39956e; */
   border-bottom: none;
   /* width: 1070px; */
@@ -314,6 +308,35 @@ header {
   background-position: 65% 5px;
 }
 
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+body::before {
+  content: '';
+  opacity: 0;
+  animation: 13s ease 5s normal forwards 1 fadein;
+  animation-iteration-count: infinite;
+  width: 100%;
+  height: 106px;
+  background: red;
+  background: #245c73 url('https://intelyshoen.github.io/assets/img/intelyshoen/snrartpicturebluetone.png') no-repeat;
+  background-size: 180px auto;
+  background-position: 65% bottom;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+}
+
 header #header-bar {
   margin-bottom: 0;
 }
@@ -331,7 +354,6 @@ header #header-bar {
 }
 
 #article-list {
-  margin-top: 0 !important;
   padding: 0 !important;
 }
 
