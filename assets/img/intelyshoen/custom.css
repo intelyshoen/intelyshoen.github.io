@@ -117,7 +117,7 @@ header #header-bar a.dropdown-toggle {
   margin: 0;
   display: flex;
   padding: 10px;
-  padding-bottom: 2px;
+  /* padding-bottom: 2px; */
   /* border: 1px solid #39956e; */
   border-bottom: none;
   /* width: 1070px; */
@@ -194,7 +194,9 @@ header #header-bar a.dropdown-toggle {
 }
 
 /* 게시글 관련부분 */
-
+#article-list {
+  margin-top: 0;
+}
 #article-list > .article-list-row > .item > .list-title > .list-writer > span {
   width: 170px !important;
 }
