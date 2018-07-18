@@ -502,7 +502,7 @@ img[alt='JKanStyle'] {
   background-size: 60px;
   background-position: center;
 }
-span[data-param-9='JKanStyle'] {
+span[data-param1='JKanStyle'] > img {
   width: 20px;
   height: 20px;
   padding-left: 20px;
