@@ -5,7 +5,7 @@ body {
   background: transparent;
   letter-spacing: -0.05em !important;
   font-family: 'Nanum Gothic', sans-serif;
-  color: #245c73;
+  /* color: #245c73; */
 }
 
 /* #board-info h1>a.badge.badge-live::after {
@@ -104,7 +104,7 @@ header {
 
 header>#header-area>a>h1 {
   background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgt.png) no-repeat;
-  background-size: auto 36px;
+  background-size: 86px auto;
   background-repeat: no-repeat;
   height: unset !important;
 }
