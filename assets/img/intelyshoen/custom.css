@@ -491,28 +491,47 @@ footer * {
   border: none !important;
 }
 
-/* m-emote */
+/* custom-emote */
 
 img[alt='JKanStyle'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
-  background: url(https://dl.dropboxusercontent.com/s/qoiz7gi068pt4jr/m_emote_1.gif?dl=0)
+  background: url(https://dl.dropboxusercontent.com/s/qoiz7gi068pt4jr/m_emote_1.gif)
     no-repeat;
   background-size: 60px;
   background-position: center;
 }
-span[title='JKanStyle'] > img {
+span[data-param1='JKanStyle'] > img {
   width: 30px;
   height: 30px;
   padding-left: 30px;
-  background: url(https://dl.dropboxusercontent.com/s/qoiz7gi068pt4jr/m_emote_1.gif?dl=0)
+  background: url(https://dl.dropboxusercontent.com/s/qoiz7gi068pt4jr/m_emote_1.gif)
     no-repeat;
   background-size: 50px;
   background-position: center;
 }
-.fr-command.fr-emoticon > img,
-.fr-command.fr-emoticon {
+
+img[alt='OptimizePrime'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://dl.dropboxusercontent.com/s/9af5yqtt2bf2xrj/s_emote_1.jpg)
+    no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
+span[data-param1='OptimizePrime'] > img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://dl.dropboxusercontent.com/s/9af5yqtt2bf2xrj/s_emote_1.jpg)
+    no-repeat;
+  background-size: 50px;
+  background-position: center;
+}
+
+https://www.dropbox.com/s/9af5yqtt2bf2xrj/s_emote_1.jpg?dl=0 .fr-command.fr-emoticon > img, .fr-command.fr-emoticon {
   width: 30px !important;
   height: 30px !important;
 }
