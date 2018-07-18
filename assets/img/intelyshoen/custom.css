@@ -502,12 +502,17 @@ img[alt='JKanStyle'] {
   background-size: 60px;
   background-position: center;
 }
-span[data-param1='JKanStyle'] > img {
-  width: 20px;
-  height: 20px;
-  padding-left: 20px;
+span[title='JKanStyle'] > img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
   background: url(https://dl.dropboxusercontent.com/s/qoiz7gi068pt4jr/m_emote_1.gif?dl=0)
     no-repeat;
   background-size: 50px;
   background-position: center;
+}
+.fr-command.fr-emoticon > img,
+.fr-command.fr-emoticon {
+  width: 30px !important;
+  height: 30px !important;
 }
