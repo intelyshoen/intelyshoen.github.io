@@ -502,6 +502,7 @@ img[alt='JKanStyle'] {
   background-size: 60px;
   background-position: center;
 }
+span[data-param1='JKanStyle']:hover,
 span[data-param1='JKanStyle'] > img {
   width: 30px;
   height: 30px;
@@ -521,6 +522,7 @@ img[alt='OptimizePrime'] {
   background-size: 60px;
   background-position: center;
 }
+span[data-param1='OptimizePrime']:hover,
 span[data-param1='OptimizePrime'] > img {
   width: 30px;
   height: 30px;
@@ -531,7 +533,8 @@ span[data-param1='OptimizePrime'] > img {
   background-position: center;
 }
 
-https://www.dropbox.com/s/9af5yqtt2bf2xrj/s_emote_1.jpg?dl=0 .fr-command.fr-emoticon > img, .fr-command.fr-emoticon {
+.fr-command.fr-emoticon > img,
+.fr-command.fr-emoticon {
   width: 30px !important;
   height: 30px !important;
 }
