@@ -502,7 +502,7 @@ img[alt='JKanStyle'] {
   background-size: 60px;
   background-position: center;
 }
-span[data-param1='JKanStyle']:hover,
+span[data-param1='JKanStyle']:hover > img,
 span[data-param1='JKanStyle'] > img {
   width: 30px;
   height: 30px;
@@ -522,7 +522,7 @@ img[alt='OptimizePrime'] {
   background-size: 60px;
   background-position: center;
 }
-span[data-param1='OptimizePrime']:hover,
+span[data-param1='OptimizePrime']:hover > img,
 span[data-param1='OptimizePrime'] > img {
   width: 30px;
   height: 30px;
