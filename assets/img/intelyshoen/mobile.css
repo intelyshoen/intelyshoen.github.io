@@ -153,6 +153,8 @@ i.fa.fa-home,
   color: #5c93a7;
 }
 
+/* custom-emote */
+
 img[alt='JKanStyle'] {
   width: 60px;
   height: 60px !important;
@@ -188,6 +190,27 @@ span[data-param1='OptimizePrime']>img {
   padding-left: 30px;
   background: url(https://dl.dropboxusercontent.com/s/9af5yqtt2bf2xrj/s_emote_1.jpg) no-repeat;
   background-size: 50px;
+  background-position: center;
+}
+
+/* tomato */
+
+img[alt='tjskduTomato'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://upload.tgd.kr/20180624/bb05b480a6bd32456f98d2dfa6d22e10.png) no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
+
+span[data-param1='tjskduTomato']:hover>img,
+span[data-param1='tjskduTomato']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://upload.tgd.kr/20180624/bb05b480a6bd32456f98d2dfa6d22e10.png) no-repeat;
+  background-size: 30px;
   background-position: center;
 }
 
