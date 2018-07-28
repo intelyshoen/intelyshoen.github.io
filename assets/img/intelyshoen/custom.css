@@ -477,7 +477,7 @@ footer * {
 
 /* custom-emote */
 
-img[alt='GingerPower'] {
+#article-content-wrapper #article-content img[alt='GingerPower'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
@@ -496,7 +496,7 @@ span[data-param1='GingerPower']>img {
   background-position: center;
 }
 
-img[alt='BCWarrior'] {
+#article-content-wrapper #article-content img[alt='BCWarrior'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
@@ -515,7 +515,7 @@ span[data-param1='BCWarrior']>img {
   background-position: center;
 }
 
-img[alt='JonCarnage'] {
+#article-content-wrapper #article-content img[alt='JonCarnage'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
@@ -534,7 +534,7 @@ span[data-param1='JonCarnage']>img {
   background-position: center;
 }
 
-img[alt='RedCoat'] {
+#article-content-wrapper #article-content img[alt='RedCoat'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
@@ -553,7 +553,7 @@ span[data-param1='RedCoat']>img {
   background-position: center;
 }
 
-img[alt='TheRinger'] {
+#article-content-wrapper #article-content img[alt='TheRinger'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
@@ -572,7 +572,7 @@ span[data-param1='TheRinger']>img {
   background-position: center;
 }
 
-img[alt='StoneLightning'] {
+#article-content-wrapper #article-content img[alt='StoneLightning'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
@@ -591,7 +591,7 @@ span[data-param1='StoneLightning']>img {
   background-position: center;
 }
 
-img[alt='JKanStyle'] {
+#article-content-wrapper #article-content img[alt='JKanStyle'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
@@ -610,7 +610,7 @@ span[data-param1='JKanStyle']>img {
   background-position: center;
 }
 
-img[alt='OptimizePrime'] {
+#article-content-wrapper #article-content img[alt='OptimizePrime'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
@@ -631,7 +631,7 @@ span[data-param1='OptimizePrime']>img {
 
 /* tjskdutls emote */
 
-img[alt='tjskduTomato'] {
+#article-content-wrapper #article-content img[alt='tjskduTomato'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -640,7 +640,7 @@ img[alt='tjskduTomato'] {
   background-position: center;
 }
 
-img[alt='tjskduAh'] {
+#article-content-wrapper #article-content img[alt='tjskduAh'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -649,7 +649,7 @@ img[alt='tjskduAh'] {
   background-position: center;
 }
 
-img[alt='tjskduCry'] {
+#article-content-wrapper #article-content img[alt='tjskduCry'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -658,7 +658,7 @@ img[alt='tjskduCry'] {
   background-position: center;
 }
 
-img[alt='tjskduHi'] {
+#article-content-wrapper #article-content img[alt='tjskduHi'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -667,7 +667,7 @@ img[alt='tjskduHi'] {
   background-position: center;
 }
 
-img[alt='tjskduJju'] {
+#article-content-wrapper #article-content img[alt='tjskduJju'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -676,7 +676,7 @@ img[alt='tjskduJju'] {
   background-position: center;
 }
 
-img[alt='tjskduLight'] {
+#article-content-wrapper #article-content img[alt='tjskduLight'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -685,7 +685,7 @@ img[alt='tjskduLight'] {
   background-position: center;
 }
 
-img[alt='tjskduMnet'] {
+#article-content-wrapper #article-content img[alt='tjskduMnet'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -694,7 +694,7 @@ img[alt='tjskduMnet'] {
   background-position: center;
 }
 
-img[alt='tjskduMuhae'] {
+#article-content-wrapper #article-content img[alt='tjskduMuhae'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -703,7 +703,7 @@ img[alt='tjskduMuhae'] {
   background-position: center;
 }
 
-img[alt='tjskduMuruk'] {
+#article-content-wrapper #article-content img[alt='tjskduMuruk'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -712,7 +712,7 @@ img[alt='tjskduMuruk'] {
   background-position: center;
 }
 
-img[alt='tjskduMuyo'] {
+#article-content-wrapper #article-content img[alt='tjskduMuyo'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -721,7 +721,7 @@ img[alt='tjskduMuyo'] {
   background-position: center;
 }
 
-img[alt='tjskduRealmadridd'] {
+#article-content-wrapper #article-content img[alt='tjskduRealmadridd'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -730,7 +730,7 @@ img[alt='tjskduRealmadridd'] {
   background-position: center;
 }
 
-img[alt='tjskduSleep'] {
+#article-content-wrapper #article-content img[alt='tjskduSleep'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -739,7 +739,7 @@ img[alt='tjskduSleep'] {
   background-position: center;
 }
 
-img[alt='tjskduSsi'] {
+#article-content-wrapper #article-content img[alt='tjskduSsi'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -748,7 +748,7 @@ img[alt='tjskduSsi'] {
   background-position: center;
 }
 
-img[alt='tjskduStairs'] {
+#article-content-wrapper #article-content img[alt='tjskduStairs'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -757,7 +757,7 @@ img[alt='tjskduStairs'] {
   background-position: center;
 }
 
-img[alt='tjskduWhat'] {
+#article-content-wrapper #article-content img[alt='tjskduWhat'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -766,7 +766,7 @@ img[alt='tjskduWhat'] {
   background-position: center;
 }
 
-img[alt='tjskduWho'] {
+#article-content-wrapper #article-content img[alt='tjskduWho'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -775,7 +775,7 @@ img[alt='tjskduWho'] {
   background-position: center;
 }
 
-img[alt='tjskduBlood'] {
+#article-content-wrapper #article-content img[alt='tjskduBlood'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
@@ -784,7 +784,7 @@ img[alt='tjskduBlood'] {
   background-position: center;
 }
 
-img[alt='tjskduFace'] {
+#article-content-wrapper #article-content img[alt='tjskduFace'] {
   width: 56px;
   height: 56px !important;
   padding-left: 56px;
