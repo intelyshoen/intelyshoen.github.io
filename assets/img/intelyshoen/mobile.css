@@ -155,10 +155,124 @@ i.fa.fa-home,
 
 /* custom-emote */
 
+img[alt='GingerPower'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://dl.dropboxusercontent.com/s/ub495k868507w66/m_emote_7.gif) no-repeat;
+  background-size: 120px;
+  background-position: center;
+}
+
+span[data-param1='GingerPower']:hover>img,
+span[data-param1='GingerPower']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://dl.dropboxusercontent.com/s/ub495k868507w66/m_emote_7.gif) no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+img[alt='BCWarrior'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://dl.dropboxusercontent.com/s/5eqf47tpiqsxs9t/m_emote_6.gif) no-repeat;
+  background-size: 120px;
+  background-position: center;
+}
+
+span[data-param1='BCWarrior']:hover>img,
+span[data-param1='BCWarrior']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://dl.dropboxusercontent.com/s/5eqf47tpiqsxs9t/m_emote_6.gif) no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+img[alt='JonCarnage'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://dl.dropboxusercontent.com/s/zbxvi0xleubrg3u/m_emote_5.gif) no-repeat;
+  background-size: 120px;
+  background-position: center;
+}
+
+span[data-param1='JonCarnage']:hover>img,
+span[data-param1='JonCarnage']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://dl.dropboxusercontent.com/s/zbxvi0xleubrg3u/m_emote_5.gif) no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+img[alt='RedCoat'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://dl.dropboxusercontent.com/s/c7tijacnm7nt458/m_emote_4.gif) no-repeat;
+  background-size: 120px;
+  background-position: center;
+}
+
+span[data-param1='RedCoat']:hover>img,
+span[data-param1='RedCoat']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://dl.dropboxusercontent.com/s/c7tijacnm7nt458/m_emote_4.gif) no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+img[alt='TheRinger'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://dl.dropboxusercontent.com/s/i1byat37bqi7u0s/m_emote_3.gif) no-repeat;
+  background-size: 120px;
+  background-position: center;
+}
+
+span[data-param1='TheRinger']:hover>img,
+span[data-param1='TheRinger']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://dl.dropboxusercontent.com/s/i1byat37bqi7u0s/m_emote_3.gif) no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+img[alt='StoneLightning'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://dl.dropboxusercontent.com/s/i798y9tket8kzq6/m_emote_2.gif) no-repeat;
+  background-size: 120px;
+  background-position: center;
+}
+
+span[data-param1='StoneLightning']:hover>img,
+span[data-param1='StoneLightning']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://dl.dropboxusercontent.com/s/i798y9tket8kzq6/m_emote_2.gif) no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
 img[alt='JKanStyle'] {
-  width: 56px;
-  height: 56px !important;
-  padding-left: 56px;
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
   background: url(https://dl.dropboxusercontent.com/s/qoiz7gi068pt4jr/m_emote_1.gif) no-repeat;
   background-size: 120px;
   background-position: center;
@@ -175,11 +289,11 @@ span[data-param1='JKanStyle']>img {
 }
 
 img[alt='OptimizePrime'] {
-  width: 56px;
-  height: 56px !important;
-  padding-left: 56px;
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
   background: url(https://dl.dropboxusercontent.com/s/9af5yqtt2bf2xrj/s_emote_1.jpg) no-repeat;
-  background-size: 56px;
+  background-size: 60px;
   background-position: center;
 }
 
