@@ -341,7 +341,7 @@ header {
   }
 }
 
-body::before {
+/* body::before {
   content: '';
   opacity: 0;
   animation: 13s ease 5s normal forwards 1 fadein;
@@ -356,7 +356,7 @@ body::before {
   display: block;
   top: 0;
   left: 0;
-}
+} */
 
 header #header-bar {
   margin-bottom: 0;
