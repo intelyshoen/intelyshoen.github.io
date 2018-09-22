@@ -343,18 +343,18 @@ header {
 
 header .col-xs-4:after {
   display: block;
-  content: '.';
-  position: absolute;
-  left: 200px;
-  top: -20px;
-  width: 200px;
-  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/moon.png);
-  height: 100px;
-  background-position: bottom;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  margin: 0;
-  padding: 0;
+    content: '.';
+    position: absolute;
+    left: 150px;
+    top: -10px;
+    width: 300px;
+    background: url(https://intelyshoen.github.io/assets/img/intelyshoen/moon.png);
+    height: 110px;
+    background-position: bottom;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
 /* body::before {
   content: '';
