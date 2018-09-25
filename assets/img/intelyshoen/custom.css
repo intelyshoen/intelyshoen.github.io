@@ -341,7 +341,7 @@ header {
   }
 }
 
-header .col-xs-4:after {
+/* header .col-xs-4:after {
   display: block;
     content: '.';
     position: absolute;
@@ -355,7 +355,7 @@ header .col-xs-4:after {
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
-}
+} */
 /* body::before {
   content: '';
   opacity: 0;
