@@ -328,6 +328,11 @@ header {
   background-size: 210px;
   background-position: 65% -26px;
 }
+header:hover{
+  background: #245c73 url(https://intelyshoen.github.io/assets/img/intelyshoen/snrpixelartbluetone.png) no-repeat;
+  background-size: 108px;
+  background-position: 65% -5px;
+}
 
 @keyframes fadein {
   0% {
