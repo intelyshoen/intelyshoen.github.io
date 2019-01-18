@@ -330,8 +330,8 @@ header {
 }
 header:hover{
   background: #245c73 url(https://intelyshoen.github.io/assets/img/intelyshoen/snrpixelartbluetone.png) no-repeat;
-  background-size: 120px;
-  background-position: 64% -8px;
+  background-size: 108px;
+  background-position: 65% -5px;
 }
 
 @keyframes fadein {
@@ -502,7 +502,7 @@ img[alt='GingerPower'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
-  background: url(https://dl.dropboxusercontent.com/s/ub495k868507w66/m_emote_7.gif) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_7.gif) no-repeat;
   background-size: 80px;
   background-position: center;
 }
@@ -512,7 +512,7 @@ span[data-param1='GingerPower']>img {
   width: 30px;
   height: 30px;
   padding-left: 30px;
-  background: url(https://dl.dropboxusercontent.com/s/ub495k868507w66/m_emote_7.gif) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_7.gif) no-repeat;
   background-size: 30px;
   background-position: center;
 }
@@ -522,7 +522,7 @@ img[alt='BCWarrior'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
-  background: url(https://dl.dropboxusercontent.com/s/5eqf47tpiqsxs9t/m_emote_6.gif) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_6.gif) no-repeat;
   background-size: 80px;
   background-position: center;
 }
@@ -532,7 +532,7 @@ span[data-param1='BCWarrior']>img {
   width: 30px;
   height: 30px;
   padding-left: 30px;
-  background: url(https://dl.dropboxusercontent.com/s/5eqf47tpiqsxs9t/m_emote_6.gif) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_6.gif) no-repeat;
   background-size: 30px;
   background-position: center;
 }
@@ -542,7 +542,7 @@ img[alt='JonCarnage'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
-  background: url(https://dl.dropboxusercontent.com/s/zbxvi0xleubrg3u/m_emote_5.gif) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_5.gif) no-repeat;
   background-size: 60px;
   background-position: center;
 }
@@ -552,7 +552,7 @@ span[data-param1='JonCarnage']>img {
   width: 30px;
   height: 30px;
   padding-left: 30px;
-  background: url(https://dl.dropboxusercontent.com/s/zbxvi0xleubrg3u/m_emote_5.gif) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_5.gif) no-repeat;
   background-size: 30px;
   background-position: center;
 }
@@ -562,7 +562,7 @@ img[alt='RedCoat'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
-  background: url(https://dl.dropboxusercontent.com/s/c7tijacnm7nt458/m_emote_4.gif) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_4.gif) no-repeat;
   background-size: 80px;
   background-position: center;
 }
@@ -572,7 +572,7 @@ span[data-param1='RedCoat']>img {
   width: 30px;
   height: 30px;
   padding-left: 30px;
-  background: url(https://dl.dropboxusercontent.com/s/c7tijacnm7nt458/m_emote_4.gif) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_4.gif) no-repeat;
   background-size: 30px;
   background-position: center;
 }
@@ -582,7 +582,7 @@ img[alt='TheRinger'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
-  background: url(https://dl.dropboxusercontent.com/s/i1byat37bqi7u0s/m_emote_3.gif) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_3.gif) no-repeat;
   background-size: 60px;
   background-position: center;
 }
@@ -592,7 +592,7 @@ span[data-param1='TheRinger']>img {
   width: 30px;
   height: 30px;
   padding-left: 30px;
-  background: url(https://dl.dropboxusercontent.com/s/i1byat37bqi7u0s/m_emote_3.gif) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_3.gif) no-repeat;
   background-size: 30px;
   background-position: center;
 }
@@ -602,7 +602,7 @@ img[alt='StoneLightning'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
-  background: url(https://dl.dropboxusercontent.com/s/i798y9tket8kzq6/m_emote_2.gif) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_2.gif) no-repeat;
   background-size: 80px;
   background-position: center;
 }
@@ -612,7 +612,7 @@ span[data-param1='StoneLightning']>img {
   width: 30px;
   height: 30px;
   padding-left: 30px;
-  background: url(https://dl.dropboxusercontent.com/s/i798y9tket8kzq6/m_emote_2.gif) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_2.gif) no-repeat;
   background-size: 30px;
   background-position: center;
 }
@@ -622,7 +622,7 @@ img[alt='JKanStyle'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
-  background: url(https://dl.dropboxusercontent.com/s/qoiz7gi068pt4jr/m_emote_1.gif) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_1.gif) no-repeat;
   background-size: 120px;
   background-position: center;
 }
@@ -632,7 +632,7 @@ span[data-param1='JKanStyle']>img {
   width: 30px;
   height: 30px;
   padding-left: 30px;
-  background: url(https://dl.dropboxusercontent.com/s/qoiz7gi068pt4jr/m_emote_1.gif) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_1.gif) no-repeat;
   background-size: 60px;
   background-position: center;
 }
@@ -642,7 +642,7 @@ img[alt='OptimizePrime'] {
   width: 60px;
   height: 60px !important;
   padding-left: 60px;
-  background: url(https://dl.dropboxusercontent.com/s/9af5yqtt2bf2xrj/s_emote_1.jpg) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/s_emote_1.jpg) no-repeat;
   background-size: 60px;
   background-position: center;
 }
@@ -652,7 +652,7 @@ span[data-param1='OptimizePrime']>img {
   width: 30px;
   height: 30px;
   padding-left: 30px;
-  background: url(https://dl.dropboxusercontent.com/s/9af5yqtt2bf2xrj/s_emote_1.jpg) no-repeat;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/s_emote_1.jpg) no-repeat;
   background-size: 50px;
   background-position: center;
 }
