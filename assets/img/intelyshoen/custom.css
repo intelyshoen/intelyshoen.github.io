@@ -498,7 +498,7 @@ footer * {
 /* custom-emote */
 
 /* DansGame SwiftRage  */
-#article-content-wrapper #article-content img[alt='PJSalt'],
+/* #article-content-wrapper #article-content img[alt='PJSalt'],
 img[alt='PJSalt'] {
   width: 60px;
   height: 60px !important;
@@ -516,7 +516,7 @@ span[data-param1='PJSalt']>img {
   background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_10.gif) no-repeat;
   background-size: 30px;
   background-position: center;
-}
+} */
 #article-content-wrapper #article-content img[alt='SwiftRage'],
 img[alt='SwiftRage'] {
   width: 60px;
