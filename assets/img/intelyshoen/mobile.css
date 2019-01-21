@@ -6,6 +6,7 @@ body {
   letter-spacing: -0.05em !important;
   font-family: 'Nanum Gothic', sans-serif;
   /* color: #245c73; */
+  transition:.2s;
 }
 
 /* #board-info h1>a.badge.badge-live::after {
