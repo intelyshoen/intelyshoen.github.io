@@ -155,6 +155,26 @@ i.fa.fa-home,
 }
 
 /* custom-emote */
+/* Kreygasm  */
+#article-content-wrapper #article-content img[alt='Kreygasm'],
+img[alt='Kreygasm'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/s_emote_03.png) no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+span[data-param1='Kreygasm']:hover>img,
+span[data-param1='Kreygasm']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/s_emote_03.png) no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
 #article-content-wrapper #article-content img[alt='KevinTurtle'],
 img[alt='KevinTurtle'] {
   width: 60px;
