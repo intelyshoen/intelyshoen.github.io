@@ -20,6 +20,7 @@ body {
   background: transparent;
   font-family: 'Nanum Gothic', sans-serif;
   letter-spacing: -0.05em !important;
+  transition:.2s;
 }
 
 /* 전체 쉐도우 */
