@@ -1,10 +1,10 @@
-@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 body {
   /* background: #5c93a7; */
   /* background: unset !important; */
   background: transparent;
   letter-spacing: -0.05em !important;
-  font-family: 'Nanum Gothic', sans-serif;
+  font-family: 'Noto Sans KR', sans-serif;
   /* color: #245c73; */
   transition:.2s;
 }
