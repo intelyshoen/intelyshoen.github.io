@@ -944,3 +944,16 @@ img[alt='tjskduFace'] {
   width: 30px !important;
   height: 30px !important;
 }
+.list-header * {
+    background: transparent !important;
+    color:#245c73!important;
+    font-weight:bold;
+}
+#article-list > .article-list-row > .item > .list-header {
+    border-left: none;
+}
+.list-header span::before {
+    content: '⭐️';
+    vertical-align: middle;
+    font-size: 5px;
+}
