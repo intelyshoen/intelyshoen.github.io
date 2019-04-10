@@ -1,0 +1,601 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+  /* background: #5c93a7; */
+  /* background: unset !important; */
+  background: transparent;
+  letter-spacing: -0.05em !important;
+  font-family: 'Noto Sans KR', sans-serif;
+  /* color: #245c73; */
+  transition:.2s;
+}
+
+/* #board-info h1>a.badge.badge-live::after {
+  content: '생방송 바로가기';
+  font-size: 13px !important;
+} */
+
+#article-list>.article-list-row>.item>.list-title>.list-writer>span {
+  width: 120px !important;
+}
+
+#article-list #article-list-category {
+  border-top: 2px solid #5c93a7;
+  background: white;
+}
+
+#article-list #article-list-category>a {
+  background: white;
+}
+
+#article-list>.article-list-row>.item>.list-header>span {
+  background-color: #5c93a7;
+}
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count {
+  color: #5c93a7;
+  letter-spacing: -0.05em !important;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span {
+  color: #5c93a7;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+  background-color: #5c93a7;
+  border-color: #5c93a7;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+  color: #5c93a7;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+  color: #5c93a7;
+}
+
+#article-content-wrapper>.header {
+  border-top: 2px solid #5c93a7;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #5c93a7;
+}
+
+#article-info>h2 {
+  font-weight: bold;
+}
+
+#article-info>h2>span.category {
+  color: #5c93a7 !important;
+}
+
+#article-reply-area>.header h5 {
+  color: #5c93a7;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-writer.logged {
+  color: #5c93a7;
+}
+
+.btn-primary {
+  background: #245c73 !important;
+}
+
+/* 모바일 */
+
+#header-top-notice {
+  display: none;
+}
+
+header {
+  background-color: #5c93a7;
+  border-bottom-color: #245c73;
+}
+
+header>#header-area>a>h1 {
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgt.png) no-repeat;
+  background-size: 86px auto;
+  background-repeat: no-repeat;
+  height: unset !important;
+}
+
+header>#header-area>#header-search-link {
+  color: #245c73;
+}
+
+header>#header-area>#header-bar-link {
+  color: #245c73;
+}
+
+header>#header-search-bar #header-search-btn {
+  color: #245c73;
+}
+
+#article-list>.article-list-row.notice>.item>a.list-title>.list-writer {
+  display: none;
+}
+
+header>#header-search-bar #header-search-input {
+  border-color: #245c73;
+}
+
+#article-list>.article-list-row>.item>a.list-title>small.comment-count {
+  color: #5c93a7;
+}
+
+#article-list>.article-list-row>.item>a.list-title>.list-writer.logged>span {
+  color: #5c93a7;
+}
+
+#nav#nav>.nav-header {
+  background-color: #5c93a7;
+  color: white;
+}
+
+span.a-badge i.fa.fa-info-circle,
+i.fa.fa-home,
+#lastc {
+  color: #5c93a7;
+}
+
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-menu a,
+#article-reply-area #reply-best-area .reply>.reply-header>.reply-menu a {
+  color: #5c93a7;
+}
+
+/* custom-emote */
+/* Kreygasm  */
+#article-content-wrapper #article-content img[alt='Kreygasm'],
+img[alt='Kreygasm'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/s_emote_03.png) no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
+
+span[data-param1='Kreygasm']:hover>img,
+span[data-param1='Kreygasm']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/s_emote_03.png) no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+#article-content-wrapper #article-content img[alt='KevinTurtle'],
+img[alt='KevinTurtle'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_11.gif) no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
+
+span[data-param1='KevinTurtle']:hover>img,
+span[data-param1='KevinTurtle']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_11.gif) no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+#article-content-wrapper #article-content img[alt='PJSalt'],
+img[alt='PJSalt'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_10.gif) no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+span[data-param1='PJSalt']:hover>img,
+span[data-param1='PJSalt']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_10.gif) no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+#article-content-wrapper #article-content img[alt='SwiftRage'],
+img[alt='SwiftRage'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_8.gif) no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+span[data-param1='SwiftRage']:hover>img,
+span[data-param1='SwiftRage']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_8.gif) no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+#article-content-wrapper #article-content img[alt='DansGame'],
+img[alt='DansGame'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_9.gif) no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+span[data-param1='DansGame']:hover>img,
+span[data-param1='DansGame']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_9.gif) no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='GingerPower'],
+img[alt='GingerPower'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_7.gif) no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+span[data-param1='GingerPower']:hover>img,
+span[data-param1='GingerPower']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_7.gif) no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='BCWarrior'],
+img[alt='BCWarrior'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_6.gif) no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+span[data-param1='BCWarrior']:hover>img,
+span[data-param1='BCWarrior']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_6.gif) no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='JonCarnage'],
+img[alt='JonCarnage'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_5.gif) no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
+
+span[data-param1='JonCarnage']:hover>img,
+span[data-param1='JonCarnage']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_5.gif) no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='RedCoat'],
+img[alt='RedCoat'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_4.gif) no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+span[data-param1='RedCoat']:hover>img,
+span[data-param1='RedCoat']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_4.gif) no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='TheRinger'],
+img[alt='TheRinger'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_3.gif) no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
+
+span[data-param1='TheRinger']:hover>img,
+span[data-param1='TheRinger']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_3.gif) no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='StoneLightning'],
+img[alt='StoneLightning'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_2.gif) no-repeat;
+  background-size: 80px;
+  background-position: center;
+}
+
+span[data-param1='StoneLightning']:hover>img,
+span[data-param1='StoneLightning']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_2.gif) no-repeat;
+  background-size: 30px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='JKanStyle'],
+img[alt='JKanStyle'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_1.gif) no-repeat;
+  background-size: 120px;
+  background-position: center;
+}
+
+span[data-param1='JKanStyle']:hover>img,
+span[data-param1='JKanStyle']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/m_emote_1.gif) no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='OptimizePrime'],
+img[alt='OptimizePrime'] {
+  width: 60px;
+  height: 60px !important;
+  padding-left: 60px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/s_emote_1.jpg) no-repeat;
+  background-size: 60px;
+  background-position: center;
+}
+
+span[data-param1='OptimizePrime']:hover>img,
+span[data-param1='OptimizePrime']>img {
+  width: 30px;
+  height: 30px;
+  padding-left: 30px;
+  background: url(https://intelyshoen.github.io/assets/img/intelyshoen/sgtEmote/s_emote_1.jpg) no-repeat;
+  background-size: 50px;
+  background-position: center;
+}
+
+/* tjskdutls emote */
+
+#article-content-wrapper #article-content img[alt='tjskduTomato'],
+img[alt='tjskduTomato'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/1126624/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduAh'],
+img[alt='tjskduAh'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/608810/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduCry'],
+img[alt='tjskduCry'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/1126109/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduHi'],
+img[alt='tjskduHi'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/560760/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduJju'],
+img[alt='tjskduJju'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/913809/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduLight'],
+img[alt='tjskduLight'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/1126621/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduMnet'],
+img[alt='tjskduMnet'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/494517/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduMuhae'],
+img[alt='tjskduMuhae'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/755745/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduMuruk'],
+img[alt='tjskduMuruk'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/601384/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduMuyo'],
+img[alt='tjskduMuyo'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/755744/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduRealmadridd'],
+img[alt='tjskduRealmadridd'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/497458/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduSleep'],
+img[alt='tjskduSleep'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/497439/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduSsi'],
+img[alt='tjskduSsi'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/896568/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduStairs'],
+img[alt='tjskduStairs'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/560756/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduWhat'],
+img[alt='tjskduWhat'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/630889/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduWho'],
+img[alt='tjskduWho'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/560765/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduBlood'],
+img[alt='tjskduBlood'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/1126619/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+#article-content-wrapper #article-content img[alt='tjskduFace'],
+img[alt='tjskduFace'] {
+  width: 56px;
+  height: 56px !important;
+  padding-left: 56px;
+  background: url(https://static-cdn.jtvnw.net/emoticons/v1/601405/3.0) no-repeat;
+  background-size: 56px;
+  background-position: center;
+}
+
+.fr-command.fr-emoticon>img,
+.fr-command.fr-emoticon {
+  width: 30px !important;
+  height: 30px !important;
+}
